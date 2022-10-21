@@ -1,0 +1,33 @@
+<app-nav></app-nav>
+<div class="container-fluid parent">
+    <div class="row parent">
+        <h1 class="title">Movies & TV shows</h1>
+        <div *ngIf="isLoading">
+            <mat-spinner></mat-spinner>
+        </div>
+            <div  class="col-md-9">
+                <div class="row">
+                    <div class="col-md-3 parent" *ngFor="let movie of movies">
+                        <a class="card-img" (click)="showDetails(movie.title)">
+                                <img 
+                                  mat-card-image
+                                  src="{{movie.poster}}"
+                                  alt="{{movie.title}}"
+                                  
+                                />
+                                
+                                
+                        </a>
+                        
+                    </div>
+                </div>
+               
+            </div>
+            <div  class="col-md-3">
+                <app-recent></app-recent>
+    
+            </div>
+       
+    </div>
+</div>
+

@@ -1,0 +1,29 @@
+<div class="recent">
+    <div >
+        <h2>Recent Search</h2>
+        <div class="row movie" *ngFor="let movie of movies"  >
+            <div class="col-sm-4" >
+                <a (click)="showDetails(movie.title)">
+                    <img mat-card-image
+                    src="{{movie.poster}}"
+                    alt="{{movie.title}}"/>
+                </a>
+                
+            </div>
+            <div class="col-sm-8">
+                <a (click)="showDetails(movie.title)">
+                    <p>
+                        Title: <b>{{movie.title}}</b>
+                     </p>
+                     <p>
+                         Genre: <b>{{movie.genre}}</b>
+                      </p>
+                      
+                </a>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+</div>

@@ -1,0 +1,23 @@
+.parent{
+    padding-top: 30px;
+    color: white;
+    background-color: black ;
+    
+}
+
+.title{
+    text-align: center;
+    font-size:2.5em;
+    margin-bottom: 20px;
+}
+
+.card-img{
+    cursor: pointer
+}
+
+img{
+    width: auto;
+  height: 400px;
+  object-fit: cover;
+}
+

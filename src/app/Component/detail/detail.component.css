@@ -1,0 +1,19 @@
+.parent{
+    padding-top: 30px;
+    color: white;
+    background-color: black ;
+    
+}
+
+.title{
+    text-align: center;
+    font-size:2.5em;
+    margin-bottom: 20px;
+}
+
+img{
+    width: auto;
+  height: 500px;
+  object-fit: cover;
+  
+}

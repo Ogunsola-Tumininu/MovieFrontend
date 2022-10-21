@@ -1,0 +1,48 @@
+.banner{
+    background-image:
+        linear-gradient(
+        rgba(11, 11, 11, 0.20), 
+        rgba(11, 11, 11, 0.20)
+      ), url(../../../assets/image/Background.jpg);
+    min-height: 100vh !important;
+    text-align: center;
+    display: flex;
+align-items: center;
+justify-content: center;
+  }
+
+  /* .bgColor{
+    background-color: black ;
+    
+    min-height: 100vh !important;
+  } */
+
+  .title{
+    font-size: 4em;
+    margin-bottom: 35px !important ;
+    color: white
+  }
+
+  .subtitle{
+    font-size: 3em;
+    margin-bottom: 35px !important ;
+    color: white
+  }
+
+  .text{
+    font-size: 2em;
+    margin-bottom: 35px !important ;
+    color: white
+  }
+
+   .searchBtn{
+    color: white;
+    background-color:brown;
+    padding: 20px;
+    font-size: 1.5em
+  }
+
+  .searchInput{
+    font-size: 1.5em;
+    padding: 16px
+  }
